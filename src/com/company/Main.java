@@ -79,7 +79,7 @@ public class Main {
         }
 
         System.out.println("Koniec gry");
-        System.out.println("Uzyskałeś " + punkty + " punktów");
+        System.out.println("Liczba uzyskanych punktów: " + punkty + " /10");
 
         try{
             File file = new File(filePath);
@@ -89,6 +89,7 @@ public class Main {
         FileWriter fileWritter = new FileWriter(file,true);
         BufferedWriter bufferWritter = new BufferedWriter(fileWritter);
         bufferWritter.write("-----------------");
+        bufferWritter.newLine();
         bufferWritter.write("Imie gracza: " + Imie);
         bufferWritter.newLine();
         bufferWritter.write("Uzyskane punkty : " + punkty + "/10");
