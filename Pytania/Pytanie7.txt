@@ -1,0 +1,5 @@
+Pytanie 7:
+Które z podanych słów jest słowem kluczowym Javy ?
+A.interface
+B.string
+C.Float

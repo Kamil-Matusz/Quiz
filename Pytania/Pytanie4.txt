@@ -1,0 +1,5 @@
+Pytanie 4:
+Która metoda może zostać użyta do zwrócenia ciągu pisanego dużymi literami?
+A.toUpperCase()
+B.touppercase()
+C.upperCase()

@@ -1,0 +1,5 @@
+Pytanie 6:
+java.util.Collections to ?
+A.Klasa
+B.Interfejs
+C.Objekt

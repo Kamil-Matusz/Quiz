@@ -1,0 +1,4 @@
+Pytanie 3:
+"Java" jest skrótem od "JavaScript" ?
+A.Tak
+B.Nie

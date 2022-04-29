@@ -1,0 +1,7 @@
+Pytanie 2:
+Jak w Javie wypisać na ekran "Hello World" ?
+--------------------------------------------
+A.echo("Hello World");
+B.System.out.println("Hello World");
+C.print("Hello World");
+--------------------------------------------

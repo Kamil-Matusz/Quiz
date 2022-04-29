@@ -1,0 +1,7 @@
+Pytanie 1:
+Kto był twórcą języka C ?
+-------------------------
+A.Bjarne Stroustrup
+B.Richard Stallman
+C.Dennis Ritchi
+------------------------

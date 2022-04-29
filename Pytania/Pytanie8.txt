@@ -1,0 +1,5 @@
+Pytanie 8:
+Który z podanych języków nie jest językiem obiektowym ?
+A.C#
+B.Java
+C.F#

@@ -1,0 +1,6 @@
+Pytanie 5:
+Którego operatora można użyć do porównania dwóch wartości?
+A.<>
+B.><
+C.==
+D.=
