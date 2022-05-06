@@ -1,0 +1,40 @@
+Pytanie 1:
+Kto był twórcą języka C ?
+Bjarne Stroustrup
+-------------------------
+Pytanie 2:
+Jak w Javie wypisać na ekran "Hello World" ?
+System.out.println("Hello World");
+-------------------------
+Pytanie 3:
+"Java" jest skrótem od "JavaScript" ?
+Nie
+-------------------------
+Pytanie 4:
+Która metoda może zostać użyta do zwrócenia ciągu pisanego dużymi literami?
+toUpperCase()
+-------------------------
+Pytanie 5:
+Którego operatora można użyć do porównania dwóch wartości?
+==
+-------------------------
+Pytanie 6:
+java.util.Collections to ?
+Klasa
+-------------------------
+Pytanie 7:
+Które z podanych słów jest słowem kluczowym Javy ?
+interface
+-------------------------
+Pytanie 8:
+Który z podanych języków nie jest językiem obiektowym ?
+F#
+-------------------------
+Pytanie 9:
+Który z podanych frameworków nie jest frameworkiem języka Java ?
+WinForms
+-------------------------
+Pytanie 10:
+Dapper jest z ORM-ów dla platformy .NET ?
+Tak
+-------------------------

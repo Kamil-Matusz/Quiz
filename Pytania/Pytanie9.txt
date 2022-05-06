@@ -1,0 +1,5 @@
+Pytanie 9:
+Który z podanych frameworków nie jest frameworkiem języka Java ?
+A.Spring
+B.Hibernate
+C.WinForms

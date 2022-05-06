@@ -1,0 +1,4 @@
+Pytanie 10:
+Dapper jest z ORM-ów dla platformy .NET ?
+A.Tak
+B.Nie

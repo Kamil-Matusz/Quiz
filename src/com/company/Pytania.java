@@ -106,4 +106,30 @@ public class Pytania {
             e.printStackTrace();
         }
     }
+
+    public static void Pytanie_9() {
+        try {
+            File file = new File("D:\\Back-End\\Java\\Kółko Naukowe\\Quiz\\Pytania\\Pytanie9.txt");
+            Scanner sc = new Scanner(file);
+            while (sc.hasNextLine())
+                System.out.println(sc.nextLine());
+            sc.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void Pytanie_10() {
+        try {
+            File file = new File("D:\\Back-End\\Java\\Kółko Naukowe\\Quiz\\Pytania\\Pytanie10.txt");
+            Scanner sc = new Scanner(file);
+            while (sc.hasNextLine())
+                System.out.println(sc.nextLine());
+            sc.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
