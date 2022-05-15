@@ -1,3 +1,6 @@
 -----------------
 Imie gracza: Joachim
 Uzyskane punkty : 9/10
+-----------------
+Imie gracza: adrian
+Uzyskane punkty : 1/10

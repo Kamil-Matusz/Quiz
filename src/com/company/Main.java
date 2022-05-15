@@ -43,7 +43,7 @@ public class Main {
                         Pytanie_1();
                         System.out.print("Odpowiedź: ");
                         char c1 = sc.next().charAt(0);
-                        if (c1 == 'C') {
+                        if (c1 == 'C' || c1 == 'c') {
                             punkty = punkty + 1;
                         }
                         System.out.println();
@@ -51,56 +51,56 @@ public class Main {
                         Pytanie_2();
                         System.out.print("Odpowiedź: ");
                         char c2 = sc.next().charAt(0);
-                        if (c2 == 'B') {
+                        if (c2 == 'B' || c2 == 'b') {
                             punkty = punkty + 1;
                         }
 
                         Pytanie_3();
                         System.out.print("Odpowiedź: ");
                         char c3 = sc.next().charAt(0);
-                        if (c3 == 'B') {
+                        if (c3 == 'B' || c3 == 'b') {
                             punkty = punkty + 1;
                         }
 
                         Pytanie_4();
                         char c4 = sc.next().charAt(0);
-                        if (c4 == 'A') {
+                        if (c4 == 'A' || c4 == 'a') {
                             punkty = punkty + 1;
                         }
 
                         Pytanie_5();
                         char c5 = sc.next().charAt(0);
-                        if (c5 == 'C') {
+                        if (c5 == 'C'|| c5 == 'c') {
                             punkty = punkty + 1;
                         }
 
                         Pytanie_6();
                         char c6 = sc.next().charAt(0);
-                        if (c6 == 'A') {
+                        if (c6 == 'A' || c6 == 'a') {
                             punkty = punkty + 1;
                         }
 
                         Pytanie_7();
                         char c7 = sc.next().charAt(0);
-                        if (c6 == 'A') {
+                        if (c7 == 'A' || c7 == 'a') {
                             punkty = punkty + 1;
                         }
 
                         Pytanie_8();
                         char c8 = sc.next().charAt(0);
-                        if (c8 == 'C') {
+                        if (c8 == 'C' || c8 == 'c') {
                             punkty = punkty + 1;
                         }
 
                         Pytanie_9();
                         char c9 = sc.next().charAt(0);
-                        if (c9 == 'C') {
+                        if (c9 == 'C' || c9 == 'c') {
                             punkty = punkty + 1;
                         }
 
                         Pytanie_10();
                         char c10 = sc.next().charAt(0);
-                        if (c10 == 'A') {
+                        if (c10 == 'A' || c10 == 'a') {
                             punkty = punkty + 1;
                         }
 
