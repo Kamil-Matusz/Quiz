@@ -4,3 +4,6 @@ Uzyskane punkty : 9/10
 -----------------
 Imie gracza: adrian
 Uzyskane punkty : 1/10
+-----------------
+Imie gracza: Miłosz
+Uzyskane punkty : 2/10

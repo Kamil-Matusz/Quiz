@@ -2,6 +2,7 @@ package com.company;
 
 import java.io.*;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 import static com.company.Odpowiedzi.Wyświetl_odpowiedzi;
 import static com.company.Pytania.Pytanie_1;
@@ -43,65 +44,115 @@ public class Main {
                         Pytanie_1();
                         System.out.print("Odpowiedź: ");
                         char c1 = sc.next().charAt(0);
+                        boolean checkAlp1 = Character.isAlphabetic(c1);
+                        if(!checkAlp1){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c1 = sc.next().charAt(0);
+                        }
                         if (c1 == 'C' || c1 == 'c') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
                         System.out.println();
 
                         Pytanie_2();
                         System.out.print("Odpowiedź: ");
                         char c2 = sc.next().charAt(0);
+                        boolean checkAlp2 = Character.isAlphabetic(c2);
+                        if(!checkAlp2){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c2 = sc.next().charAt(0);
+                        }
                         if (c2 == 'B' || c2 == 'b') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         Pytanie_3();
                         System.out.print("Odpowiedź: ");
                         char c3 = sc.next().charAt(0);
+                        boolean checkAlp3 = Character.isAlphabetic(c3);
+                        if(!checkAlp3){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c3 = sc.next().charAt(0);
+                        }
                         if (c3 == 'B' || c3 == 'b') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         Pytanie_4();
                         char c4 = sc.next().charAt(0);
+                        boolean checkAlp4 = Character.isAlphabetic(c4);
+                        if(!checkAlp4){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c4 = sc.next().charAt(0);
+                        }
                         if (c4 == 'A' || c4 == 'a') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         Pytanie_5();
                         char c5 = sc.next().charAt(0);
+                        boolean checkAlp5 = Character.isAlphabetic(c5);
+                        if(!checkAlp5){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c5 = sc.next().charAt(0);
+                        }
                         if (c5 == 'C'|| c5 == 'c') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         Pytanie_6();
                         char c6 = sc.next().charAt(0);
+                        boolean checkAlp6 = Character.isAlphabetic(c6);
+                        if(!checkAlp6){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c6 = sc.next().charAt(0);
+                        }
                         if (c6 == 'A' || c6 == 'a') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         Pytanie_7();
                         char c7 = sc.next().charAt(0);
+                        boolean checkAlp7 = Character.isAlphabetic(c7);
+                        if(!checkAlp7){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c7 = sc.next().charAt(0);
+                        }
                         if (c7 == 'A' || c7 == 'a') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         Pytanie_8();
                         char c8 = sc.next().charAt(0);
+                        boolean checkAlp8 = Character.isAlphabetic(c8);
+                        if(!checkAlp8){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c8 = sc.next().charAt(0);
+                        }
                         if (c8 == 'C' || c8 == 'c') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         Pytanie_9();
                         char c9 = sc.next().charAt(0);
+                        boolean checkAlp9 = Character.isAlphabetic(c9);
+                        if(!checkAlp9){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c9 = sc.next().charAt(0);
+                        }
                         if (c9 == 'C' || c9 == 'c') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         Pytanie_10();
                         char c10 = sc.next().charAt(0);
+                        boolean checkAlp10 = Character.isAlphabetic(c10);
+                        if(!checkAlp10){
+                            System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
+                            c10 = sc.next().charAt(0);
+                        }
                         if (c10 == 'A' || c10 == 'a') {
-                            punkty = punkty + 1;
+                            punkty += 1;
                         }
 
                         System.out.println("Koniec gry");
