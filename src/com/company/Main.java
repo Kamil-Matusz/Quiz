@@ -49,7 +49,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c1 = sc.next().charAt(0);
                         }
-                        if (c1 == 'C' || c1 == 'c') {
+                        char answer1 =Character.toUpperCase(c1);
+                        if (answer1 == 'C') {
                             punkty += 1;
                         }
                         System.out.println();
@@ -62,7 +63,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c2 = sc.next().charAt(0);
                         }
-                        if (c2 == 'B' || c2 == 'b') {
+                        char answer2 =Character.toUpperCase(c2);
+                        if (answer2 == 'B') {
                             punkty += 1;
                         }
 
@@ -74,7 +76,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c3 = sc.next().charAt(0);
                         }
-                        if (c3 == 'B' || c3 == 'b') {
+                        char answer3 =Character.toUpperCase(c3);
+                        if (answer3 == 'B') {
                             punkty += 1;
                         }
 
@@ -85,7 +88,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c4 = sc.next().charAt(0);
                         }
-                        if (c4 == 'A' || c4 == 'a') {
+                        char answer4 =Character.toUpperCase(c4);
+                        if (answer4 == 'A') {
                             punkty += 1;
                         }
 
@@ -96,7 +100,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c5 = sc.next().charAt(0);
                         }
-                        if (c5 == 'C'|| c5 == 'c') {
+                        char answer5 =Character.toUpperCase(c5);
+                        if (answer5 == 'C') {
                             punkty += 1;
                         }
 
@@ -107,7 +112,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c6 = sc.next().charAt(0);
                         }
-                        if (c6 == 'A' || c6 == 'a') {
+                        char answer6 =Character.toUpperCase(c6);
+                        if (answer6 == 'A') {
                             punkty += 1;
                         }
 
@@ -118,7 +124,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c7 = sc.next().charAt(0);
                         }
-                        if (c7 == 'A' || c7 == 'a') {
+                        char answer7 =Character.toUpperCase(c7);
+                        if (answer7 == 'A') {
                             punkty += 1;
                         }
 
@@ -129,7 +136,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c8 = sc.next().charAt(0);
                         }
-                        if (c8 == 'C' || c8 == 'c') {
+                        char answer8 =Character.toUpperCase(c8);
+                        if (answer8 == 'C') {
                             punkty += 1;
                         }
 
@@ -140,7 +148,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c9 = sc.next().charAt(0);
                         }
-                        if (c9 == 'C' || c9 == 'c') {
+                        char answer9 =Character.toUpperCase(c9);
+                        if (answer9 == 'C') {
                             punkty += 1;
                         }
 
@@ -151,7 +160,8 @@ public class Main {
                             System.out.print("Podana odpowiedż musi być literą, podaj odpowiedź jeszcze raz: ");
                             c10 = sc.next().charAt(0);
                         }
-                        if (c10 == 'A' || c10 == 'a') {
+                        char answer10 =Character.toUpperCase(c10);
+                        if (answer10 == 'A') {
                             punkty += 1;
                         }
 
